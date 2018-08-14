@@ -68,9 +68,9 @@ get_header();
                         echo get_field("project_text"); ?>
                     </div>
                             
-                    <?php //disabled spoiler button for small that 850 sumbols
+                    <?php //disabled spoiler button for small that 750 sumbols
 
-                            if (mb_strlen(get_field("project_text")) > 850 ) {
+                            if (mb_strlen(get_field("project_text")) > 750 ) {
                                 echo '<div class="ui-custom-button ui-custom-button--gradient project-description__button project-description__button--more x-more-less" data-text="Читать дальше"></div>';
 
                             } 

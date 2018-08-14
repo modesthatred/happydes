@@ -56,7 +56,7 @@ function happ_scripts() {
 
 	wp_enqueue_script('jquery.maskedinput.min', THEME_DIR . '/build/js/jquery.maskedinput.min.js', array("jquery"), '', true);
 
-	wp_enqueue_script('all.script', THEME_DIR . '/build/js/all.js', array("jquery"), '', true);
+	wp_enqueue_script('all.script', THEME_DIR . '/js/all.js', array("jquery"), '', true);
 //___________________________
 
 	wp_enqueue_script( 'happ-navigation', THEME_DIR . '/js/navigation.js', array(), '20151215', true );
