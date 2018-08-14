@@ -32,7 +32,7 @@ jQuery(document).ready(function ($) {
                 infinite: true,
                 fade: true,
                 autoplay: true,
-                speed: 600,
+                speed: 400,
                 variableWidth: false,
                 draggable: true,
                 useCSS: true,
