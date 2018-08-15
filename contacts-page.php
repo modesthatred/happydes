@@ -10,8 +10,11 @@ get_header();
 			<div class="contact-list">
 				<div class="ui-container contact-list__inner">
 					<div class="contact-list__item contact-item">
-						<div class="contact-item__icon contact-item__icon--photo1"
+						<div class="contact-item__icon contact-item__icon--photo1" onclick="location.href=
+                            '<?php //custom profile1_photo
+                            the_field('profile1_photo_link'); ?>' "
 							<?php 
+
 							//custom contacts_photo1
 			                echo ' style="background-image: url( ' , get_field('contacts_photo1') , ' );" '; ?>
 			                >
@@ -54,6 +57,9 @@ get_header();
 			
 					<div class="contact-list__item contact-item">
 						<div class="contact-item__icon contact-item__icon--photo2"
+							onclick="location.href=
+                            '<?php //custom profile2_photo
+                            the_field('profile2_photo_link'); ?>' "
 							<?php //custom contacts_photo2
 			                echo ' style="background-image: url( ' , get_field('contacts_photo2') , ' );" '; ?>
 			                >
